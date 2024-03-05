@@ -1,0 +1,42 @@
+div
+{
+ border: 2px solid gray;
+ padding: 4px;
+ width: 200px;
+ margin: 2px;
+ background-color: white;
+
+}
+
+.relative{
+    position: relative;
+    left: 100px;
+    top: 25px;
+}
+
+.absolute{
+    position: absolute;
+    left: 250px;
+    top: 15px;
+}
+
+.myfixed{
+    position: fixed;
+    right: 0px;
+}
+
+
+.mysticky
+{
+    position: sticky;
+    top: 0px;
+}
+
+.bild{
+    width: 200px;
+    padding: 10px;
+}
+
+.floating{
+    float: left;
+}

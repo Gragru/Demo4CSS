@@ -1,0 +1,46 @@
+
+
+@media (min-width: 601px)
+{
+    .myflexbox
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .myflexbox
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.myflexbox div{
+    background-color:rgb(241, 255, 110);
+    padding:10px; 
+    margin: 2px;
+}
+
+.left{
+    flex-basis: 300;
+}
+
+.right{
+    text-align: right;
+}
+
+.rest1
+{
+    flex-grow: 1;
+}
+
+.rest2{
+    flex-grow: 2;
+}
+
+.rest3{
+    flex-grow: 4;
+}
